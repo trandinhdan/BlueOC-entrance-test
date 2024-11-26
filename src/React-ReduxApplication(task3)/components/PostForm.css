@@ -1,0 +1,77 @@
+/* Container cho form */
+.post-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Nhóm các trường input */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Các trường nhập liệu */
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .form-textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  /* Button submit */
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tạo khoảng cách dưới form */
+  .submit-button:focus {
+    outline: none;
+  }
+  
